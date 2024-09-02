@@ -1,0 +1,37 @@
+body{
+    background:url(../imag/liene-geidane-PdtFMPpIYRc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oclok{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.349);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.oclok div{
+    background: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oclok span{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}

@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    background: url(/img/1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-principal{
+    width: 400px;
+    background:rgba(0, 0, 0, 0.582);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 5px 5px 5px rgb(5, 5, 5);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.caixa-principal input{
+    height: 20px;
+    background: rgb(187, 186, 186);
+    border: none;
+    outline: none;
+}
+
+.caixa-principal input:focus{
+    background: rgb(109, 109, 109);
+}
+.caixa-principal button{
+    background: rgb(0, 0, 0);
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px white;
+    padding: 5px;
+    transform:  0.3s;
+    transform: translateY(-2px);
+    cursor: pointer;
+    color: white;
+    
+}

@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    background: url(../img/pexels-vikramstudio46-1119796.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.caixa-principal{
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.613);
+    padding: 25px;
+    gap: 20px;
+    border: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 18px rgb(255, 0, 0);
+}
+.caixa-principal input{
+    height: 30px;
+    width: 200px;
+    color: red;
+    font-size: 15px;
+}
+.caixa-principal button{
+    height: 30px;
+    background: rgba(205, 15, 15, 0.78);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    transform: 0.3s;
+    transform: translateY(-2px);
+}
+.caixa-principal label{
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root{
+    --linear-gradient: linear-gradient(90deg, #bec9d8, #29bce0ee, #bec9d8);   
+}
+
+*{
+    font-family: 'Chakra Petch';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#caixa{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--linear-gradient);
+    color: #ffff;
+}
+
+#calculadora{
+    background: rgba(0, 0, 0, 0.616);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#calculadora h2{
+    font-size: 30px;
+    position: relative;
+}
+#calculadora h2::before{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 150px;
+    background: var(--linear-gradient);
+    bottom: 5px;
+}
+#input_box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input_field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input_field label{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: 500;
+}
+
+.input_field input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(5, 134, 143);
+    color: #ffff;
+    font-size: 20px;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+#resultado{
+    text-align: center;
+}
+
+#total{
+    font-size: 40px;
+}
+
+#calcular{
+    background: var(--linear-gradient);
+    border: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+#fundo{
+    min-width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 40%;
+}
+h1{
+    color: rgb(86, 154, 199);
+    text-align: center;
+}
+.caixa{
+    width: fit-content;
+    height: fit-content;
+    background: rgba(83, 99, 110, 0.363);
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Scope One';
+}
+
+.caixa input{
+    height: 30px;
+    width: 70%;
+    border-radius: 7px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(77, 79, 82, 0.747);
+}
+
+.caixa div button{
+    height:25px;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#qrcode{
+    margin-top: 30px;
+}

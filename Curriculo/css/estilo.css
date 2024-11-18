@@ -1,0 +1,51 @@
+@font-face{
+    font-family: assinatura;
+    src:url(../fonts/cherolina/Cherolina.otf);
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, hsla(220, 12%, 75%, 1) 0%, hsla(222, 4%, 53%, 1) 100%);
+}
+img{
+    height: 150px;
+    border-radius: 50%;
+}
+.caixa-principal{
+    width: 600px;
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.525);
+}
+.titulo{
+    font-size: 75px;
+    display:flex;
+    font-family: 'assinatura';
+    align-items: center;
+    justify-content:flex-start;
+    gap: 30px;
+}
+hr{
+   background: black;
+    width: 600px;
+    height: 1px;
+}
+p{
+    text-align: justify;
+}
+
+/*TABLET*/
+@media (max-width:1024px) and (min-width:768px) {
+        body{
+            background: linear-gradient(90deg, rgb(100, 104, 111) 0%, hsla(222, 4%, 53%, 1) 100%);
+        }
+}
+/*MOBILE*/
+@media (max-width:768px) and (min-width:320px){
+    body{
+        background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    }
+}

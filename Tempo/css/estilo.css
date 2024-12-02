@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro";
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/clouds-1868060_1280.jpg);
+  background-size: cover;
+}
+
+.caixa-maior {
+  background: rgba(192, 187, 187, 0.562);/* opacity: 0.8; */
+  border-radius: 25px;
+  padding: 20px;/* responsivo */
+  width: 95%; /*Largura tela menores*/
+  max-width: 450px; /*Largura tela maiores*/
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.caixa-maior input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  background: #ffffffee;
+  color: rgb(0, 0, 0);
+  width: calc(100% - 50px);
+}
+
+#botao{
+  border: none;
+  outline: none;
+  background: transparent;
+  float: right;
+  cursor: pointer;
+  transform: 0.3s;
+}
+
+.botao-busca{
+  width: 45px;
+}
+
+.img-busca {
+  width: 20px;
+}
+
+.cidade {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.temp {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    gap: 20px;
+}
+
+.umidade{
+    color:white;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+}
+
+#botao:hover{
+  transform: translateY(-2px);
+}

@@ -32,7 +32,7 @@ ir.addEventListener('click',() => {
                 }
         }
             buscar();
-   }, 2000); // Tempo de busca simulado (2 segundos)
+   }, 2000); 
 });
 
 
